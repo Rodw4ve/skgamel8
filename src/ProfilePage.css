@@ -1,0 +1,171 @@
+/* ProfilePage.css */
+
+/* Profile header section */
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .profile-picture-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profile-picture-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .profile-picture:hover .profile-picture-overlay {
+    opacity: 1;
+  }
+  
+  .upload-icon,
+  .remove-icon {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .profile-info {
+    margin-left: 20px;
+  }
+  
+  .profile-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .share-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Profile navigation section */
+  .profile-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .nav-button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Profile stats section */
+  .profile-stats {
+    margin-bottom: 20px;
+  }
+  
+  .stats-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .stats-label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .stats-value {
+    font-weight: bold;
+  }
+  
+  /* Profile data section */
+  .profile-data {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .data-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .data-title {
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .data-card {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Show all games section */
+  .show-all-games {
+    margin-bottom: 20px;
+  }
+  
+  .games-dropdown {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Profile bottom section */
+  .profile-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bottom-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bottom-title {
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .bottom-card {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

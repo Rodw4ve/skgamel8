@@ -1,0 +1,188 @@
+/* PlayPage.css */
+
+.play-page {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu li {
+  margin-bottom: 10px;
+}
+
+.sidebar-menu li a {
+  display: block;
+  padding: 10px;
+  background-color: #eaeaea;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-menu li a:hover {
+  background-color: #ccc;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+}
+
+.sidebar-menu .game-list {
+  display: none;
+}
+
+.sidebar-menu .game-list.active {
+  display: block;
+}
+
+.sidebar-menu .game-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.sidebar-menu .game-list li {
+  margin: 0;
+}
+
+.sidebar-menu .game-list li a {
+  display: block;
+  padding: 10px;
+  background-color: #eaeaea;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-menu .game-list li a:hover {
+  background-color: #ccc;
+}
+
+.overview-menu {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.overview-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.overview-menu li {
+  margin-right: 20px;
+}
+
+.overview-menu li:last-child {
+  margin-right: 0;
+}
+
+.overview-menu li a {
+  display: block;
+  padding: 10px;
+  background-color: #eaeaea;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.overview-menu li a:hover {
+  background-color: #ccc;
+}
+
+.gamemode-options {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.gamemode-options li {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.recommend-hubs {
+  margin-top: auto;
+}
+
+.recommend-hubs h3 {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .play-page {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    align-items: center;
+  }
+
+  .content {
+    padding: 20px;
+  }
+}
+
+.game-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.game-list li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.game-list li:hover {
+  background-color: #eaeaea;
+}
+
+.game-select {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: #333;
+}

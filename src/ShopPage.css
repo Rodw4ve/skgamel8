@@ -1,0 +1,120 @@
+/* ShopPage.css */
+
+.shop-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .cart-section {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .cart-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cart-items li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .cart-items button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .checkout-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .checkout-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .filter-section {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .filter-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .filter-options label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .products-section {
+    flex-basis: 65%;
+  }
+  
+  .sort-section {
+    margin-bottom: 10px;
+  }
+  
+  .sort-section label {
+    font-weight: bold;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .product-card {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .product-card p {
+    margin-bottom: 10px;
+  }
+  
+  .product-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .product-card button:hover {
+    background-color: #0056b3;
+  }
+  

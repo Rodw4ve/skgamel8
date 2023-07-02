@@ -1,0 +1,83 @@
+/* SupportPage.css */
+
+.support-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .support-content {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  .support-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .support-header h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .support-header input[type="text"] {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .support-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .support-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .support-row button {
+    width: 200px;
+    height: 50px;
+    margin: 0 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a90e2;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .support-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-info {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .promoted-articles {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .support-header input[type="text"] {
+      width: 100%;
+    }
+  }
+  

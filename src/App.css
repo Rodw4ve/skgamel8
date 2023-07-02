@@ -1,0 +1,42 @@
+
+/* homepage updates for the anti cheat and three columns*/
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.column-block {
+  flex-basis: calc(33.33% - 20px);
+  margin: 15px;
+  padding: 5px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.anti-cheat-button {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  width: 150px;
+  padding: 10px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.anti-cheat-button:hover {
+  background-color: #ff3333;
+}

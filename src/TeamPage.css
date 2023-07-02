@@ -1,0 +1,95 @@
+.team-page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .team-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .team-members {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .member-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: gray;
+  }
+  
+  .member-name {
+    margin-top: 10px;
+  }
+  
+  .team-chat {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message-inbox {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .message {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+  }
+  
+  .message-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .message-form input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .message-form button {
+    padding: 5px 10px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .team-calendar {
+    /* Add your styling for the scheduler/calendar here */
+  }
+  
+  /* Additional styling for other sections can be added below */
+  
+  .team-announcement {
+    /* Add your styling for the team announcement section here */
+  }
+  
+  .team-reviews {
+    /* Add your styling for the team reviews section here */
+  }
+  
+  .team-highlights {
+    /* Add your styling for the team highlights section here */
+  }
+  
