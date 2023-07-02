@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/skgamel8/static/css/main.03ce86a3.css",
+    "main.js": "/skgamel8/static/js/main.c347d4e2.js",
+    "static/js/787.19e4f4b1.chunk.js": "/skgamel8/static/js/787.19e4f4b1.chunk.js",
+    "index.html": "/skgamel8/index.html",
+    "main.03ce86a3.css.map": "/skgamel8/static/css/main.03ce86a3.css.map",
+    "main.c347d4e2.js.map": "/skgamel8/static/js/main.c347d4e2.js.map",
+    "787.19e4f4b1.chunk.js.map": "/skgamel8/static/js/787.19e4f4b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03ce86a3.css",
+    "static/js/main.c347d4e2.js"
+  ]
+}
