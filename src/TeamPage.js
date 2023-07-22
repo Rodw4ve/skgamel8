@@ -70,32 +70,38 @@ function TeamPage() {
       <div className="team-section">
         <h2 className="section-title">Team Announcement</h2>
         <div className="team-announcement">
-          {/* Render the team announcements */}
-          {/* ... */}
+          {}
+          <p>Team practice will be held on Friday at 5 PM.</p>
+          <p>Good luck to all team members in the upcoming tournament!</p>
+          <p>Team jerseys will be distributed next week.</p>
         </div>
       </div>
 
       <div className="team-section team-scheduler">
         <h2 className="section-title">Scheduler</h2>
         <div className="team-calendar">
-          {/* Render the scheduler/calendar */}
-          {/* Placeholder: Add your scheduler/calendar component here */}
+          {}
+          {}
         </div>
       </div>
 
       <div className="team-section">
         <h2 className="section-title">Reviews</h2>
         <div className="team-reviews">
-          {/* Render the team reviews */}
-          {/* ... */}
+          {}
+          <p>Great teamwork and communication in the last match!</p>
+          <p>One of the best teams I've played with. Highly recommended!</p>
+          <p>Team members are skilled and friendly.</p>
         </div>
       </div>
 
       <div className="team-section">
         <h2 className="section-title">Highlights</h2>
         <div className="team-highlights">
-          {/* Render the team highlights */}
-          {/* ... */}
+          {}
+          <p>Team won the championship trophy in the regional tournament.</p>
+          <p>Amazing comeback in a close match against strong opponents.</p>
+          <p>Team captain achieved a new personal best rank.</p>
         </div>
       </div>
     </div>

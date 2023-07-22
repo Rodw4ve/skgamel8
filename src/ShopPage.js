@@ -1,3 +1,5 @@
+// ShopPage.js
+
 import React, { useState } from 'react';
 import './ShopPage.css';
 
@@ -22,12 +24,36 @@ const productsData = [
   },
   {
     id: 4,
-    name: 'Brazzey',
+    name: 'Dawgz',
     price: 85.0,
     category: 'subscription',
   },
-  // Add more products here
+  {
+    id: 5,
+    name: 'Sticker Pack',
+    price: 5.0,
+    category: 'merch',
+  },
+  {
+    id: 6,
+    name: 'Mug',
+    price: 12.0,
+    category: 'merch',
+  },
+  {
+    id: 7,
+    name: 'Standard Subscription',
+    price: 7.0,
+    category: 'subscription',
+  },
+  {
+    id: 8,
+    name: 'Gaming Gloves',
+    price: 200.0,
+    category: 'merch',
+  },
 ];
+
 
 function ShopPage() {
   const [filters, setFilters] = useState([]);
@@ -74,6 +100,13 @@ function ShopPage() {
 
   const filteredAndSortedProducts = sortProducts(applyFilters(productsData));
 
+  const featuredProduct = {
+    id: 5,
+    name: 'Special Edition T-Shirt',
+    price: 25.0,
+    category: 'merch',
+  };
+
   return (
     <div className="shop-page">
       <div className="cart-section">
@@ -113,7 +146,7 @@ function ShopPage() {
             />
             Merchandise
           </label>
-          {/* Add more filter options here */}
+          {}
         </div>
       </div>
       <div className="products-section">
@@ -136,6 +169,17 @@ function ShopPage() {
               <button onClick={() => addToCart(product)}>Add to Cart</button>
             </div>
           ))}
+        </div>
+      </div>
+      <div className="special-offers-section">
+        <h2>Special Offers</h2>
+        <div className="special-offers-list">
+          <div className="special-offer-card">
+            <h3>50% Off Hoodies</h3>
+            <p>Use code HOODIE50 at checkout.</p>
+            <button>Shop Now</button>
+          </div>
+          {}
         </div>
       </div>
     </div>
